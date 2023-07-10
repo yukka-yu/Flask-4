@@ -1,0 +1,658 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<HEAD><title>Таблица частот</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="ROBOTS" content="INDEX,FOLLOW">
+<META NAME="Description" CONTENT="Список радиочастот, составленный посетителями сайта Radioscanner.Ru"> 
+<META NAME="Keywords" CONTENT="частоты,радиочастоты,позывные,таблица,список,база,москва,россия,авиа,спутниковые,любительские"> 
+<META NAME="Document-state" CONTENT="Dynamic">
+<META NAME="Resource-type" CONTENT="document">
+<LINK href="../content.css" type="text/css" rel="STYLESHEET">
+
+</head>
+
+<body class=body1>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9759756254764775",
+    enable_page_level_ads: true
+  });
+</script>
+
+<div align="center">
+
+<table><tr><td height=4></td></tr></table>
+
+
+<table width=100% cellpadding="0" cellspacing="1" border="0">
+
+<tr>
+
+<td width="130">
+<a href="../"><img src="../forum/img/logo2.jpg" width=130 height=51 border=0 alt="На главную страницу сайта"></a>
+</td>
+
+<td>
+
+<table height=53 width=100% cellpadding="0" cellspacing="1">
+
+<tr height="50%">
+
+<td valign="middle" style="background-color: #F7F7F7;padding: 6px;font-size: x-small;" nowrap><strong>
+ · <a href="http://shop.radioscanner.ru">Магазин</a>
+ · <a href="../board/">Объявления</a>
+ · <a href="../rating/">Рейтинг</a>
+ · <a href="../bands/">Диапазоны</a>
+ · <a href="../airbase/">Аэродромы</a>
+ · <a href="../forum/uploader.php">Копилка</a>
+ · <a href="../forum/">Форум</a>
+ · <a style="color:red;font-weight:bold;" href="http://live.radioscanner.pro/">Live!</a>
+</td>  
+
+</tr>
+
+
+<tr height="50%">
+
+<td valign="middle" style="background-color: #F7F7F7;padding: 6px;font-size: x-small;" nowrap><strong>
+ · <a href="../files/">Файлы</a>
+ · <a href="../info/">Статьи</a>
+ · <a href="http://signals.radioscanner.ru/">Сигналы</a>
+ · <a href="http://museum.radioscanner.ru/">Музей</a>
+ · <a href="http://mods.radioscanner.ru/">Mods</a>
+ · <a href="http://lpd.radioscanner.ru/">LPD-форум</a> 
+ · <a href="http://club.radioscanner.ru/">Клуб</a> 
+ · <a href="../trx/">Радиостанции</a>
+</td>  
+  
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table> 
+
+<table><tr><td height=4></td></tr></table><script language="JavaScript">
+function PopUp(aaa,zz,xx,scrb){
+
+var wsss = eval (screen.width/2 - zz/2);
+var hsss = eval(screen.height/2 - xx/2);
+
+helpWin = window.open(aaa,"imageWin","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars="+scrb+",resizable=0,width="+ zz +",height="+ xx +",left="+ wsss +",top="+ hsss +"");
+
+}
+
+function allow_only_digits()
+{
+    if (window.event.keyCode<48 || window.event.keyCode >57) {
+	window.event.keyCode = "0"
+	//alert("Please enter only digits")
+    } 
+}
+
+</script>
+
+<table class=forums style="border: 1px #3D7F95 solid;">
+  <tr> 
+    <td class=caption2> <small><b>&nbsp;&middot; <a href="./">Тaблицa чaстoт</a> 
+      &middot;&nbsp;<a href="./index.php?action=search1">Поиск</a>&nbsp;&middot;&nbsp;<a href="./index.php?action=enter1">Ввод 
+      новой частоты</a>&nbsp;&middot;&nbsp;<a href="./index.php?action=stats">Статистика</a> 
+      &middot;&nbsp;<a href="./index.php?action=stats2">Частоты по городам</a></b></small></td>
+  </tr>
+
+</table>
+
+
+
+<table align="center" class=tblog>
+<tr><td class=log><form action="http://www.radioscanner.ru/index.php" method=post style="margin: 0px;">Логин <input type="text" name="username" style="font-size:x-small;">
+        &nbsp;Пароль 
+        <input type="password" name="pass" style="font-size:x-small;" autocomplete="off"> 
+<input type=submit class=inputButton value="войти">&nbsp; <a href="http://www.radioscanner.ru/forum/index.php?action=registernew">Регистрация</a>
+        &nbsp;&nbsp;         <input type=hidden name=mode value="login"><input type=hidden name=queryStr value="/base/index.php"><input type=hidden name=queryString value="action=list&amp;sortBy=0&amp;page=30"></form>
+</td></tr></table>
+
+<table><tr><td height=2></td></tr></table>
+
+
+
+<br>
+
+  <table class=tbTransparent>
+    <tr> 
+      <td class=tbTransparent>
+        <h2>Таблица частот</h2>
+        <noindex><small>Выборка: по частоте&nbsp;&middot;&nbsp;<a href="index.php?action=list&amp;sortBy=1&amp;page=30">по 
+          дате добавления</a></small></noindex></td>
+    </tr>
+  </table>
+<br>
+
+
+<table class=forums><tr><td class=caption3>
+<form action="./index.php" method="post">
+
+<input maxLength=5 size=6 class=textForm name=searchfreq1a onKeyPress="allow_only_digits();" value=""><strong>.</strong><input maxLength=5 size=6 class=textForm name=searchfreq1b onKeyPress="allow_only_digits();" value="">
+ <small>МГц</small>&nbsp;<input type="submit" value="Быстрый поиск" class="inputButton">
+
+<input type="hidden" name="action" value="list">
+</form>
+
+</td></tr></table>
+
+<br>
+
+<div style="text-align:left;">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9759756254764775"
+     data-ad-slot="5498474448"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+<br>
+
+<table class=forums>
+
+  <tr>
+    <td class=caption2 colspan=10><small><strong> <a href="index.php?action=list&amp;sortBy=0&amp;page=29">&lt;&lt;</a> <a href="index.php?action=list&amp;sortBy=0&amp;page=0">1</a> ... <a href="index.php?action=list&amp;sortBy=0&amp;page=26">27</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=27">28</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=28">29</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=29">30</a> . <b>31</b> . <a href="index.php?action=list&amp;sortBy=0&amp;page=31">32</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=32">33</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=33">34</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=34">35</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=35">36</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=36">37</a> ... <a href="index.php?action=list&amp;sortBy=0&amp;page=888">889</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=889">890</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=31">&gt;&gt;</a></strong></small></td>
+  </tr>
+ 
+   <tr valign="middle"> 
+
+    <td class=caption4><div align="left"><strong>Частота</strong></div></td>
+    <td class=caption4><div align="left"><strong>Место и дата наблюдения</strong></div></td>
+    <td class=caption4><div align="left"><strong>Модуляция и тип сигнала</strong></div></td>
+    <td class=caption4><div align="left"><strong>Служба радиосвязи</strong></div></td>
+    <td width="20%" class=caption4><div align="left"><strong>Принадлежность</strong></div></td>
+    <td width="17%" class=caption4><div align="left"><strong>Позывной</strong></div></td>
+    <td width="5%" class=caption4><div align="left"><strong>Просм.</strong></div></td>
+    <td width="1%" class=caption4><div align="center"><strong>О.</strong></div></td>
+    <td width="1%" class=caption4><div align="center"><strong>П.</strong></div></td>
+    <td width="1%" class=caption4><div align="center"><strong>К.</strong></div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq22709.html">0.4680</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Мичуринск<br> <small style="color:#999999;">22 августа 2011</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ аэропорт Минеральные Воды, Ставропольский край (LN14nf)</td>
+    <td class=caption1 style="padding-left:5"><small>MD</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">984</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=22709',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">9</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq34248.html">0.4680</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">5 марта 2016</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Fritzlar&quot;, Германия (JO41pc)</td>
+    <td class=caption1 style="padding-left:5"><small>FTZ</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">657</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq33737.html">0.4680</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">7 ноября 2015</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Kraljevo/Vitanovac&quot;, Сербия (KN03jr)</td>
+    <td class=caption1 style="padding-left:5"><small>VTN</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">744</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq19970.html">0.4690</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Владивосток<br> <small style="color:#999999;">10 декабря 2010</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">NDB маяк г.Хабаровск (PN78on)</td>
+    <td class=caption1 style="padding-left:5"><small>HI</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1166</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=19970',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">6</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq20993.html">0.4700</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Нижний Новгород<br> <small style="color:#999999;">16 марта 2011</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ПРС а/д завода №21 (&quot;Балатон&quot;, &quot;Сокол&quot;)</td>
+    <td class=caption1 style="padding-left:5"><small>MI</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1708</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=20993',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">10</font></div></td>
+    <td valign="middle" class=caption1><div align="center">2</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq12546.html">0.4700</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">ЮФО<br> <small style="color:#999999;">5 ноября 2008</small></td>
+    <td class=caption1 style="padding-left:5"><strong>АМ</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ, Таганрог-Центральный</td>
+    <td class=caption1 style="padding-left:5"><small>QL / TN</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1346</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">11</font></div></td>
+    <td valign="middle" class=caption1><div align="center">3</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq33799.html">0.4700</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">29 ноября 2015</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Uzice/Ponikve&quot;, Сербия (JN93wu)</td>
+    <td class=caption1 style="padding-left:5"><small>UZ</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">762</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq38667.html">0.4700</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Москва<br> <small style="color:#999999;">28 октября 2020</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">БПРМ аэропорта г. Котлас, Архангельская обл. (LP31if)</td>
+    <td class=caption1 style="padding-left:5"><small>K</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">387</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=38667',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq33570.html">0.4700</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">9 сентября 2015</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Balikesir&quot;, Турция (KM39xp)</td>
+    <td class=caption1 style="padding-left:5"><small>BRI</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">728</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq32916.html">0.4700</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">ЦФО<br> <small style="color:#999999;">2 апреля 2015</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ, Миргород</td>
+    <td class=caption1 style="padding-left:5"><small>CD</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">875</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">2</font></div></td>
+    <td valign="middle" class=caption1><div align="center">1</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq32464.html">0.4700</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">18 января 2015</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Batman&quot;, Турция (LM07nw)</td>
+    <td class=caption1 style="padding-left:5"><small>BAT</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">781</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq38760.html">0.4730</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Москва<br> <small style="color:#999999;">11 декабря 2020</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ аэродрома г. Ржев, Тверская обл. (KO76eg)</td>
+    <td class=caption1 style="padding-left:5"><small>MG</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">484</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=38760',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq37003.html">0.4730</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Омская обл.<br> <small style="color:#999999;">7 ноября 2018</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ОПРС Уренгой</td>
+    <td class=caption1 style="padding-left:5"><small>О</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">553</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=37003',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">1</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq20386.html">0.4740</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Мичуринск<br> <small style="color:#999999;">2 января 2011</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Rzeszow/Jasionka&quot;, Польша (KO10bc)</td>
+    <td class=caption1 style="padding-left:5"><small>BIA</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1006</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=20386',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">6</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq35894.html">0.4745</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Мичуринск<br> <small style="color:#999999;">5 сентября 2017</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">NDB аэропорта Darlowo, Польша (JO84ek)</td>
+    <td class=caption1 style="padding-left:5"><small>SA</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">701</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=35894',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">4</font></div></td>
+    <td valign="middle" class=caption1><div align="center">1</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq12549.html">0.4750</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">ЮФО<br> <small style="color:#999999;">5 ноября 2008</small></td>
+    <td class=caption1 style="padding-left:5"><strong>АМ</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ, Котельниково, Волгоградская обл.</td>
+    <td class=caption1 style="padding-left:5"><small>CL/USh</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1430</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=12549',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">9</font></div></td>
+    <td valign="middle" class=caption1><div align="center">2</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq19977.html">0.4750</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Владивосток<br> <small style="color:#999999;">10 декабря 2010</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Китайский маяк Beijing (OM89br)</td>
+    <td class=caption1 style="padding-left:5"><small>JR</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1120</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">4</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq12591.html">0.4750</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">ЮФО<br> <small style="color:#999999;">9 ноября 2008</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>CW</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ОПРС, Петровское</td>
+    <td class=caption1 style="padding-left:5"><small>PT</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1453</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=12591',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">15</font></div></td>
+    <td valign="middle" class=caption1><div align="center">2</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq35934.html">0.4750</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Омская обл.<br> <small style="color:#999999;">17 сентября 2017</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ, аэропорт Файзабад, Таджикистан</td>
+    <td class=caption1 style="padding-left:5"><small>JD</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">688</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=35934',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq12644.html"><span style='color:D40202;'>0.4750</span></a></strong><br><small style="color:#999999;"><span style='color:F86161;'></span></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">ЮФО<br> <small style="color:#999999;">12 ноября 2008</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ПРС, Егорлыкская</td>
+    <td class=caption1 style="padding-left:5"><small>&quot;Ф&quot; (F)</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1428</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=12644',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">5</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq34249.html">0.4750</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">5 марта 2016</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Kazan&quot;, Россия (LO45op)</td>
+    <td class=caption1 style="padding-left:5"><small>AM</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">733</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">3</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq32584.html">0.4770</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">5 февраля 2015</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Kutaisi&quot;, Грузия (LN12fe)</td>
+    <td class=caption1 style="padding-left:5"><small>TIG</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">657</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">4</font></div></td>
+    <td valign="middle" class=caption1><div align="center">1</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq32635.html">0.4770</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Краснодар<br> <small style="color:#999999;">5 февраля 2015</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Маяк аэропорта &quot;Malacky-Kuchyna&quot;, Словакия (JN88nl)</td>
+    <td class=caption1 style="padding-left:5"><small>RP</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">746</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq16238.html">0.4780</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Мичуринск<br> <small style="color:#999999;">27 января 2010</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ОПРС &quot;Ларионово&quot;, Владимирская область (KO96ta)</td>
+    <td class=caption1 style="padding-left:5"><small>MF</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1206</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">17</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq37560.html">0.4790</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Саратов<br> <small style="color:#999999;">27 августа 2019</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Аэропорт &quot;Гагарин&quot;</td>
+    <td class=caption1 style="padding-left:5"><small>GR</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">729</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=37560',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">&nbsp;</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq16133.html">0.4800</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Мичуринск<br> <small style="color:#999999;">1 декабря 2009</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">БПРМ аэродром &quot;Динарий&quot; г.Тамбов (LO02qr)</td>
+    <td class=caption1 style="padding-left:5"><small>S, K</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1222</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=16133',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">3</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq16926.html">0.4800</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Мичуринск<br> <small style="color:#999999;">4 января 2010</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ аэропорт г.Магнитогорска, Челябинская область (LO93ii)</td>
+    <td class=caption1 style="padding-left:5"><small>RF, СР</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1289</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=16926',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">12</font></div></td>
+    <td valign="middle" class=caption1><div align="center">2</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq20325.html">0.4800</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Иркутск<br> <small style="color:#999999;">10 января 2011</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">Undurkhaan (Монголия)</td>
+    <td class=caption1 style="padding-left:5"><small>UH</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">1154</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">3</font></div></td>
+    <td valign="middle" class=caption1><div align="center">&nbsp;</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel1"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq31697.html">0.4800</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Мичуринск<br> <small style="color:#999999;">3 августа 2014</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ДПРМ аэропорт Витязево, г. Анапа Краснодарский кр. (KN84px)</td>
+    <td class=caption1 style="padding-left:5"><small>AN, AP</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">862</td>
+    <td valign="middle" class=caption1><div align="center"><a href="javascript:PopUp('index.php?action=freqdescr&freq_id=31697',600,400,1)"><img src="./img/info.gif" alt="Описание" width="16" height="16" border="0"></a></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">6</font></div></td>
+    <td valign="middle" class=caption1><div align="center">2</div></td>
+  </tr>
+
+  <tr valign="top" class="tbCel2"> 
+    <td class=caption1 style="padding-left:6;padding-right:5;" nowrap><div align="left"><strong><a href="http://www.radioscanner.ru/base/freq35605.html">0.4820</a></strong><br><small style="color:#999999;"></small></div></td>
+    <td class=caption1 style="padding-left:6;padding-right:5;">Омская обл.<br> <small style="color:#999999;">8 апреля 2017</small></td>
+    <td class=caption1 style="padding-left:5"><strong>AM</strong><br>Morse</td>
+    <td class=caption1 style="padding-left:6;padding-right:5;"><small>Радионавигационная</small></td>
+    <td class=caption1 style="padding-left:5">ОПРС, Кожевниково, Томская обл.</td>
+    <td class=caption1 style="padding-left:5"><small>NN</small></td>
+    <td class=caption1 style="padding-left:5;color:gray">780</td>
+    <td valign="middle" class=caption1><div align="center"></div></td>
+    <td valign="middle" class=caption1><div align="center"><font color="#666666">1</font></div></td>
+    <td valign="middle" class=caption1><div align="center">1</div></td>
+  </tr>
+
+
+</table>
+
+<table class=forums><tr><td align="right"><small></small></td></tr></table>
+
+<table class=forums>
+  <tr> 
+    <td  class=caption2><small><strong> <a href="index.php?action=list&amp;sortBy=0&amp;page=29">&lt;&lt;</a> <a href="index.php?action=list&amp;sortBy=0&amp;page=0">1</a> ... <a href="index.php?action=list&amp;sortBy=0&amp;page=26">27</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=27">28</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=28">29</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=29">30</a> . <b>31</b> . <a href="index.php?action=list&amp;sortBy=0&amp;page=31">32</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=32">33</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=33">34</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=34">35</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=35">36</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=36">37</a> ... <a href="index.php?action=list&amp;sortBy=0&amp;page=888">889</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=889">890</a> . <a href="index.php?action=list&amp;sortBy=0&amp;page=31">&gt;&gt;</a></strong></small></td>
+  </tr>
+</table>
+
+<br>
+
+<div style="text-align:left;">
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9759756254764775";
+google_ad_slot = "5498474448";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+<br>
+
+<table class=forums>
+  <tr>
+    <td><strong><small>Пояснения к таблице частот:</small></strong><br>
+      <small>&quot;О.&quot; - описание к частоте; чтобы просмотреть описание, 
+      нажмите на значок</small><br>
+      <small>&quot;П.&quot; - количество подтверждений приема сигнала на частоте 
+      </small><br>
+      <small>&quot;К.&quot; - количество комментариев, сделанных посетителями 
+      к частоте<br>
+      &quot;<font color="#FF0000">хх.хххх</font>&quot; - устаревшая частота</small></td>
+  </tr>
+  <tr><td>&nbsp;</td></tr>
+  <tr>
+    <td><small><strong>Редакторы: <a href="http://www.radioscanner.ru/forum/index.php?action=userinfo&user=2475">Stumbler</a></strong>, <strong><a href="http://www.radioscanner.ru/forum/index.php?action=userinfo&user=2680">Ангстрем</a></strong></td>
+  </tr>
+</table><br>
+<table class=forums>
+  <tr>
+    <td class=caption2> <small><b>&nbsp;&middot; <a href="./">Таблица частот</a> &middot;&nbsp;<a href="./index.php?action=search1">Поиск</a>&nbsp;&middot;&nbsp;<a href="./index.php?action=enter1">Ввод новой частоты</a>&nbsp;&middot;&nbsp;<a href="./index.php?action=stats">Статистика</a> &middot;&nbsp;<a href="./index.php?action=stats2">Частоты по городам</a> </b></small></td>
+  </tr>
+</table>
+ <br>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0" style="font-size:x-small;">
+
+<tr> 
+
+<noindex>
+
+<td width="41" valign="top" style="filter:alpha(opacity=60); -moz-opacity:0.6; opacity:0.6;"> <div align="left">
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/stat/radioscanner.ru' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t50.12;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+</div></td>
+
+</noindex>
+
+<td align="right"><small>Russian RadioBase v.2.0 &copy; 2004-2007<br>
+Поддержка: <a href="http://www.miniBB.net" target="_blank">miniBB</a> / <a href="http://www.radioscanner.ru" target="_blank">radioscanner</a>  Время загрузки: 0.032 сек.</td>
+
+</tr>
+</table>
+
+</body>
+</html>
